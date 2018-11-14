@@ -1,10 +1,21 @@
-[![Build Status](https://travis-ci.org/thoughtworks/build-your-own-radar.svg?branch=master)](https://travis-ci.org/thoughtworks/build-your-own-radar)
+# Leroy Merlin Russia Technology Radar <!-- omit in toc -->
 
 A library that generates an interactive radar, inspired by [thoughtworks.com/radar](http://thoughtworks.com/radar).
 
+- [Demo](#demo)
+- [How To Use](#how-to-use)
+     - [Setting up your data](#setting-up-your-data)
+     - [Sharing the sheet](#sharing-the-sheet)
+     - [Using CSV data](#using-csv-data)
+     - [Building the radar](#building-the-radar)
+     - [More complex usage](#more-complex-usage)
+- [Docker Image](#docker-image)
+- [Contribute](#contribute)
+     - [Don't want to install node? Run with one line docker](#dont-want-to-install-node-run-with-one-line-docker)
+
 ## Demo
 
-You can see this in action at https://radar.thoughtworks.com. If you plug in [this data](https://docs.google.com/spreadsheets/d/1YXkrgV7Y6zShiPeyw4Y5_19QOfu5I6CyH5sGnbkEyiI/) you'll see [this visualization](https://radar.thoughtworks.com/?sheetId=1YXkrgV7Y6zShiPeyw4Y5_19QOfu5I6CyH5sGnbkEyiI). 
+You can see this in action at [Leroy Merlin Russia Technology Radar](https://adeo.github.io/lmru-technology-radar).
 
 ## How To Use
 
@@ -17,7 +28,7 @@ You need to make your data public in a form we can digest.
 Create a Google Sheet. Give it at least the below column headers, and put in the content that you want:
 
 | name          | ring   | quadrant               | isNew | description                                             |
-|---------------|--------|------------------------|-------|---------------------------------------------------------|
+| ------------- | ------ | ---------------------- | ----- | ------------------------------------------------------- |
 | Composer      | adopt  | tools                  | TRUE  | Although the idea of dependency management ...          |
 | Canary builds | trial  | techniques             | FALSE | Many projects have external code dependencies ...       |
 | Apache Kylin  | assess | platforms              | TRUE  | Apache Kylin is an open source analytics solution ...   |
