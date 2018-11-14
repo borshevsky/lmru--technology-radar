@@ -1,8 +1,9 @@
 # Leroy Merlin Russia Technology Radar <!-- omit in toc -->
 
-A library that generates an interactive radar, inspired by [thoughtworks.com/radar](http://thoughtworks.com/radar).
-
-- [Demo](#demo)
+- [What is the Technology Radar?](#what-is-the-technology-radar)
+- [What is the purpose?](#what-is-the-purpose)
+- [How do we maintain it?](#how-do-we-maintain-it)
+- [Radar in Action](#radar-in-action)
 - [How To Use](#how-to-use)
      - [Setting up your data](#setting-up-your-data)
      - [Sharing the sheet](#sharing-the-sheet)
@@ -13,11 +14,55 @@ A library that generates an interactive radar, inspired by [thoughtworks.com/rad
 - [Contribute](#contribute)
      - [Don't want to install node? Run with one line docker](#dont-want-to-install-node-run-with-one-line-docker)
 
-## Demo
+## What is the Technology Radar?
+
+The Leroy Merlin Russia Technology Radar is a list of technologies, complemented by an assessment result,
+called *ring assignment*. We use four rings with the following semantics:
+
+- **ADOPT** - Technologies we have high confidence in to serve our purpose, also in large scale.
+     Technologies with a usage culture in our Leroy Merlin Russia production environment, low risk and
+     recommended to be
+     widely used.
+
+- **TRIAL** - Technologies that we have seen work with success in project work to solve a real
+     problem; first serious usage experience that confirm benefits and can uncover limitations. TRIAL
+     technologies are slightly more risky; some engineers in our organization walked this path and will share
+     knowledge and experiences.
+
+- **ASSESS** - Technologies that are promising and have clear potential value-add for us;
+     technologies worth to invest some research and prototyping efforts in to see if it has impact. ASSESS
+     technologies have higher risks; they are often brand new and highly unproven in our organisation. You will
+     find some engineers that have knowledge in the technology and promote it, you may even find teams that have
+     started a prototyping effort.
+
+- **HOLD** - Technologies not recommended to be used for new projects. Technologies that we think
+     are not (yet) worth to (further) invest in. HOLD technologies should not be used for new projects, but
+     usually can be continued for existing projects.
+
+## What is the purpose?
+
+The Technology Radar is a tool to inspire and support engineering teams at Leroy Merlin Russia to pick the
+best technologies for new projects; it provides a platform to share knowledge and experience in technologies,
+to reflect on technology decisions and continuously evolve our technology landscape. Based on the [pioneering work of ThoughtWorks](https://www.thoughtworks.com/radar), our Technology Radar sets out the changes in technologies that are interesting in
+software development - changes that we think our engineering teams should pay attention to and consider
+using in their projects.
+
+## How do we maintain it?
+
+The Technology Radar is maintained by the *Leroy Merlin Russia Technology Community* - an open
+group of senior Leroy Merlin Russia technologists committed to devote time to the Technology Radar purpose.
+The community is sponsorted by CTO and self organises to maintain the Technology Radar documents,
+including this public version. Assignment of technologies to rings is the
+outcome of ring change proposals, which are discussed and voted on in Technology Strategy Board meetings.
+The Tech Radar depends on active participation and input from all engineering teams at Leroy Merlin Russia.
+
+## Radar in Action
 
 You can see this in action at [Leroy Merlin Russia Technology Radar](https://adeo.github.io/lmru-technology-radar).
 
 ## How To Use
+
+A library that generates an interactive radar, inspired by [thoughtworks.com/radar](http://thoughtworks.com/radar).
 
 The easiest way to use the app out of the box is to provide a *public* Google Sheet ID from which all the data will be fetched. You can enter that ID into the input field on the first page of the application, and your radar will be generated. The data must conform to the format below for the radar to be generated correctly.
 
