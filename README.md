@@ -53,7 +53,7 @@ The Technology Radar is maintained by the *Leroy Merlin Russia Technology Commun
 group of senior Leroy Merlin Russia technologists committed to devote time to the Technology Radar purpose.
 The community is sponsorted by CTO and self organises to maintain the Technology Radar documents,
 including this public version. Assignment of technologies to rings is the
-outcome of ring change proposals, which are discussed and voted on in Technology Strategy Board meetings.
+outcome of ring change proposals, which are discussed and voted on in [Technology Strategy Board](https://github.com/adeo/technology-strategy-board-lmru) meetings.
 The Tech Radar depends on active participation and input from all engineering teams at Leroy Merlin Russia.
 
 ## Radar in Action
