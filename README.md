@@ -58,7 +58,7 @@ The Tech Radar depends on active participation and input from all engineering te
 
 ## Radar in Action
 
-You can see this in action at [Leroy Merlin Russia Technology Radar](https://adeo.github.io/lmru-technology-radar).
+You can see this in action at [Leroy Merlin Russia Technology Radar](https://adeo.github.io/technology-radar-lmru).
 
 ## How To Use
 
